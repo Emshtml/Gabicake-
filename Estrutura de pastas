@@ -1,0 +1,14 @@
+/pages
+  index.js          -> Home / Catálogo
+  cart.js           -> Carrinho
+/components
+  Header.js         -> Cabeçalho / Menu
+  Footer.js         -> Rodapé
+  ProductCard.js    -> Card de produto
+/utils
+  products.js       -> Lista de produtos
+  cart.js           -> Funções de carrinho
+/public
+  /images           -> Fotos dos produtos
+/styles
+  globals.css       -> Estilo global

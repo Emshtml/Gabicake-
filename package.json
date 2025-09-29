@@ -1,5 +1,5 @@
 {
-  "name": "gabicakeapp-frontend",
+  "name": "gabicake",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -22,8 +22,5 @@
     "node": "20.x"
   }
 }
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-}
+
+

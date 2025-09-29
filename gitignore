@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+.env
+.env.local
+.env.*.local
+
+# Build & OS
+.DS_Store
+Thumbs.db
+
+# Eclipse / Flash Builder (opcional)
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk

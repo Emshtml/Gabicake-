@@ -1,31 +1,6 @@
 // pages/index.js
 
 export default function Home() {
-  return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
-      <h1>Bem-vindo ao GabicakeApp!</h1>
-      <p>Seu aplicativo Next.js está rodando no Vercel 🚀</p>
-    </div>
-  );
-}
-// pages/index.js
-
-export default function Home() {
-  return (
-    <div 
-      style={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        height: '100vh', 
-        flexDirection: 'column', 
-        textAlign: 'center',
-        fontFamily: 'sans-serif',
-      }}
-    >
-  // pages/index.js
-
-export default function Home() {
   const produtos = [
     { id: 1, nome: "Cupcake de Baunilha", preco: "R$ 9,90", imagem: "https://picsum.photos/300/200?random=1" },
     { id: 2, nome: "Bolo Red Velvet", preco: "R$ 39,90", imagem: "https://picsum.photos/300/200?random=2" },
@@ -136,6 +111,3 @@ styles.card[':hover'] = {
 styles.botao[':hover'] = {
   background: '#732d91',
 };
-
-  );
-}

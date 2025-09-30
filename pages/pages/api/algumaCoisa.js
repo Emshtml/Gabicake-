@@ -1,18 +1,27 @@
+// arquivo: handler.js
 module.exports = (req, res) => {
-  res.status(404).json({ message: 'Not Found' });
-};const express = require('express');
+  const { method } = req;
+
+  switch (method) {
+    case 'GET':
+      // Exemplo de resposta para GET
+      res.status(200).json({ message: 'GET request recebida!' });
+      break;
+
+    case 'POST':
+      // Exemplo de resposta para POST
+      res.status(201).json({ message: 'POST request recebida!' });
+      break;
+
+    default:
+      // Para qualquer outro método
+      res.status(404).json({ message: `Método ${method} não suportado` });
+      break;const express = require('express');
 const app = express();
+const handler = require('./handler');
 
-// Importa o handler
-const notFoundHandler = require('./notFoundHandler');
+app.use(express.json()); // Para ler JSON do corpo da requisição
 
-// Rota de teste
-app.get('/teste', (req, res) => {
-  res.send('Rota encontrada!');
-});
-
-// Qualquer outra rota não definida vai cair aqui
-app.use(notFoundHandler);
+app.all('/api/teste', handler); // Usa o mesmo handler para todos os métodos
 
 app.listen(3000, () => console.log('Servidor rodando na porta 3000'));
-

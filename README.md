@@ -1,2 +1,10 @@
-# Gabicake-
-Gabicakeapp – Doce como você merece. PWA para vendas de bolos, doces e sobremesas, com catálogo, carrinho e painel admin.
+Gabicake App é uma PWA (Progressive Web App) focada em vendas de bolos, doces e sobremesas artesanais.
+Oferece:
+
+Catálogo completo de produtos com fotos e descrições detalhadas
+
+Carrinho de compras fácil e intuitivo
+
+Painel administrativo para gerenciar pedidos, produtos e estoque
+
+Experiência rápida, moderna e responsiva, disponível em qualquer dispositivo

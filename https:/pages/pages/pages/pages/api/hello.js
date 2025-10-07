@@ -1,7 +1,0 @@
-export default function handler(req, res) {
-  if (req.method === "GET") {
-    return res.status(200).json({ message: "API funcionando corretamente 🚀" });
-  } else {
-    return res.status(405).json({ error: "Método não permitido" });
-  }
-}

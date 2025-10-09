@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regras de compatibilidade específicas para navegadores Apple */
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px);
+  }
+}
+
+/* Aqui você pode adicionar estilos globais adicionais */
+html, body {
+  @apply antialiased text-gray-900 bg-white;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 transition-colors;
+}
+
+button {
+  @apply rounded-lg px-4 py-2 font-medium;
+}

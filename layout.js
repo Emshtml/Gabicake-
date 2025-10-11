@@ -1,4 +1,5 @@
-// app/layout.js
+import './globals.css'; // 👈 Adicionado no topo
+
 export const metadata = {
   title: 'Gabicake App 🍰',
   description: 'Aplicativo Gabicake funcionando no Vercel 🚀',
@@ -22,4 +23,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
 

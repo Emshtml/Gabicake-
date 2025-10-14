@@ -1,7 +1,48 @@
-🍰 Sobre a Gabicake
+# 🍰 Gabicake App v1.0.0
 
-Na Gabicake, acreditamos que cada doce conta uma história — e cada fatia é uma forma de compartilhar carinho, celebração e afeto. 
+![Production](https://img.shields.io/website-up-down-green-red/https/gabicake.vercel.app)
+![GitHub release](https://img.shields.io/github/v/release/Emshtml/Gabicake-)
+![License](https://img.shields.io/github/license/Emshtml/Gabicake-)
 
-Nascemos com o propósito de levar a confeitaria artesanal para mais perto das pessoas, unindo tradição e tecnologia em uma experiência única e irresistível. Nosso app transforma o jeito de comprar bolos, doces e sobremesas em algo simples, rápido e encantador: você navega por um catálogo delicioso, personaliza pedidos, acompanha tudo em tempo real e recebe o sabor que ama direto na sua casa.Mais do que um aplicativo, a Gabicake é um convite para saborear momentos especiais. Cada receita é feita com ingredientes selecionados, atenção aos detalhes e aquele toque caseiro que transforma uma sobremesa em lembrança. 
+Gabicake é um **PWA para vendas de bolos, doces e sobremesas**, com catálogo, carrinho de compras e painel administrativo.  
+Cada receita é feita com ingredientes selecionados, atenção aos detalhes e aquele toque caseiro que transforma uma sobremesa em lembrança.
 
-Seja para comemorar, presentear ou simplesmente adoçar o dia, a Gabicake está aqui para tornar cada ocasião ainda mais doce — com praticidade, qualidade e muito amor em cada pedacinho. 
+---
+
+## 🚀 Deploy Online
+🔗 [Acesse a aplicação](https://gabicake.vercel.app)
+
+---
+
+## ✨ Novidades da versão v1.0.0
+- 🌐 Catálogo de produtos dinâmico  
+- 🛒 Carrinho de compras funcional  
+- 🧁 Painel administrativo inicial  
+- ⚡ Interface responsiva (PWA instalável)  
+- 🎨 Estilização com TailwindCSS + Critters  
+- 🔌 API `/api/hello` testada e funcional  
+- ⚙️ Build otimizada com Node 20.x  
+
+---
+
+## 🧰 Tecnologias
+- **Next.js 14.2.0**  
+- **React 18**  
+- **TailwindCSS 3.4**  
+- **Critters 2.7**  
+- **Axios 1.6**  
+- Deploy: **Vercel**
+
+---
+
+## 💻 Como rodar localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/Emshtml/Gabicake-.git
+Instale dependências
+npm install
+Rode o projetonpm run dev
+Abra no navegadorhttp://localhost:3000
+LicençaMIT License © 2025
+Desenvolvido por @Emshtml
